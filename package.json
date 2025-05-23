@@ -1,12 +1,17 @@
 {
+  "name": "pcg32",
+  "version": "1.0.0",
+  "type": "module",
   "main": "./dist/PCG32.js",
   "types": "./dist/PCG32.d.ts",
   "exports": {
     ".": {
       "import": "./dist/PCG32.js",
+      "require": "./dist/PCG32.js",
       "types": "./dist/PCG32.d.ts"
     }
   },
+  "files": ["dist"],
   "devDependencies": {
     "typescript": "^5.8.3"
   }
