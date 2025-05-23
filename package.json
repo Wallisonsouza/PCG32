@@ -1,0 +1,13 @@
+{
+  "main": "./dist/PCG32.js",
+  "types": "./dist/PCG32.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/PCG32.js",
+      "types": "./dist/PCG32.d.ts"
+    }
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
